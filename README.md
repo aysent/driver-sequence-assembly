@@ -12,23 +12,22 @@ the Depth First Search (DFS) algorithm.
 
 An example of usage of this module:
 
-from assembly import SequenceAssembler
-
-s = SequenceAssembler()
-
-# read data
-with open("data.fasta") as data:
-    s.read_fasta(data)
-
-# run assembly
-s.assemble()
-
-# access path and resulting sequence
-
-print s.path
-print s.sequence
-
+    from assembly import SequenceAssembler
+    
+    s = SequenceAssembler()
+    
+    # read data
+    with open("data.fasta") as data:
+        s.read_fasta(data)
+    
+    # run assembly
+    s.assemble()
+    
+    # access path and resulting sequence
+    
+    print s.path
+    print s.sequence
 
 Run tests:
 
-python test.py
+    python test.py
