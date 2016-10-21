@@ -1,0 +1,8 @@
+>Frag_56
+ATTAGACCTG
+>Frag_57
+AGACCT
+>Frag_58
+ACCTGCC
+>Frag_59
+TGCCGG
